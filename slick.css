@@ -1,0 +1,29 @@
+#slider {
+  margin: 0px auto;
+  padding: 0%;
+  text-align: center;
+  width: 200px;
+}
+ #slider p {
+   list-style: none;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   width: 100px;
+   height: 100px;
+ }
+ .s1 {
+   background: red;
+ }
+ .s2 {
+   background: blue;
+ }
+ .s3 {
+   background: yellow;
+ }
+ .s4 {
+   background: green;
+ }
+ .s5 {
+   background: pink;
+ }

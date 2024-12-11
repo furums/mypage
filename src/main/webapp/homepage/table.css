@@ -1,0 +1,28 @@
+@charset "utf-8";
+
+/*==============================
+テーブル
+==============================*/
+table.profile {
+    width:680px; /* テーブル全体の幅の指定 */
+    border-collapse:collapse; /* セルの間に隙間を開けない */
+}
+
+table.profile th {
+    width:150px; /* 見出しセルの幅の指定 */
+    padding:10px; /* パディング */
+    text-align:center; /* センター揃えにする */
+    white-space:nowrap; /* セル内の改行を禁止する */
+    background-color:#ccccee; /* 背景色 */
+    border-bottom:dotted #666666 1px; /* ボーダー */
+}
+
+table.profile td {
+    padding:10px; /* パディング */
+    background-color:#eeeeff; /* 背景色 */
+    border-bottom:dotted #666666 1px; /* ボーダー */
+}
+
+table#gamelist {
+    width:440px;
+}
